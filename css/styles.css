@@ -935,7 +935,7 @@ img {
 
   .contacts {
     font-style: normal;
-    margin: 16px 0 16px auto;
+    margin-left: auto;
   }
 
   .contacts-list {
