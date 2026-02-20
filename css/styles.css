@@ -67,7 +67,7 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 100%;
     padding: 0 15px;
@@ -152,13 +152,17 @@ img {
       opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #fff;
-    padding: 72px 0 0 16px;
   }
 
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+  }
+
+  .mobile-container {
+    border-radius: 4px;
+    padding: 72px 24px 40px 16px;
   }
 
   .modal-menu-close {
@@ -228,7 +232,6 @@ img {
   .mobile-icon-field {
     display: flex;
     gap: 40px;
-    margin: 0 24px 40px 16px;
   }
 
   .mobile-social-link {
@@ -941,8 +944,7 @@ img {
 
   .contacts-link {
     display: block;
-
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
