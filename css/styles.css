@@ -62,16 +62,12 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-main.is-open {
-  display: block;
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 100%;
     padding: 0 15px;
@@ -1556,9 +1552,9 @@ main.is-open {
 
 /* ===================================================================== */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -1957,10 +1953,6 @@ main.is-open {
     display: flex;
     align-items: flex-start;
     align-items: baseline;
-  }
-
-  .footer-object {
-    display: none;
   }
 
   .footer-info {
