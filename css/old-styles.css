@@ -174,6 +174,8 @@ img {
   color: #404bbf;
 }
 
+/* ================================== */
+
 .hero {
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -184,12 +186,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .title {
-  width: 496px;
+  max-width: 496px;
   margin-right: auto;
   margin-left: auto;
   font-weight: 700;
@@ -228,9 +229,10 @@ img {
   background-color: #404bbf;
 }
 
+/* ================================== */
+
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .features-list {
@@ -239,7 +241,7 @@ img {
 }
 
 .features-card {
-  width: 264px;
+  max-width: 264px;
 }
 
 .features-icon-item {
@@ -270,10 +272,11 @@ img {
   color: #434455;
 }
 
+/* ================================== */
+
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -344,9 +347,10 @@ img {
   fill: #f4f4fd;
 }
 
+/* ================================== */
+
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portfolio-title {
@@ -360,7 +364,7 @@ img {
 }
 
 .portfolio-card {
-  width: 360px;
+  max-width: 360px;
   position: relative;
   overflow: hidden;
   transition:
@@ -380,7 +384,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: #2e2f42;
 }
 
@@ -434,16 +438,21 @@ img {
   color: #f4f4fd;
 }
 
+/* ================================== */
+
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   align-items: flex-start;
   align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -481,11 +490,7 @@ img {
   margin-top: 16px;
 }
 
-.footer-info {
-  margin-right: 120px;
-}
-
-.footer-social {
+.footer-media {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -511,7 +516,7 @@ img {
 
 .footer-subscribe {
   margin-left: 80px;
-  width: 453px;
+  max-width: 453px;
   height: 80px;
 }
 
@@ -584,6 +589,8 @@ img {
   fill: #fff;
 }
 
+/* ================================== */
+
 .backdrop {
   position: fixed;
   z-index: 999;
@@ -610,8 +617,8 @@ img {
   position: relative;
   top: 50%;
   left: 50%;
-  width: 408px;
-  height: 584px;
+  max-width: 408px;
+  max-height: 584px;
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
   overflow: auto;
