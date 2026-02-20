@@ -62,7 +62,7 @@ img {
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -133,7 +133,8 @@ img {
   }
 
   .mobile-icon {
-    cursor: pointer;
+    border: none;
+    background-color: transparent;
   }
 
   /* ================================== */
@@ -211,6 +212,7 @@ img {
     display: grid;
     gap: 24px;
     padding-bottom: 48px;
+    font-style: normal;
   }
 
   .mobile-contacts-link {
@@ -1646,7 +1648,6 @@ img {
 
   .contacts {
     font-style: normal;
-    margin-left: auto;
   }
 
   .contacts-list {
@@ -1751,12 +1752,14 @@ img {
   }
 
   .features-icon-item {
+    display: block;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 264px;
     height: 112px;
     background-color: #f4f4fd;
   }
+
   .features-icon {
     margin: 24px 100px;
   }
@@ -1870,13 +1873,11 @@ img {
   }
 
   .portfolio-card {
+    display: grid;
     max-width: 360px;
     position: relative;
     overflow: hidden;
-    transition:
-      box-shadow 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-      0 1px 1px 0 rgba(46, 47, 66, 0.16),
-      0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: none;
   }
 
   .portfolio-item {
@@ -1903,6 +1904,7 @@ img {
   }
 
   .portfolio-overlay {
+    display: block;
     position: absolute;
     background-color: #4d5ae5;
     padding: 40px 32px;
@@ -1955,6 +1957,10 @@ img {
     display: flex;
     align-items: flex-start;
     align-items: baseline;
+  }
+
+  .footer-object {
+    margin: 0;
   }
 
   .footer-info {
