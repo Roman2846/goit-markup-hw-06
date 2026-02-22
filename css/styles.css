@@ -108,7 +108,8 @@ img {
     margin-right: 76px;
   }
 
-  .header-logo:focus {
+  .header-logo:focus,
+  .header-logo:hover {
     color: #2e2f42;
   }
 
@@ -116,7 +117,8 @@ img {
     color: #2e2f42;
   }
 
-  .accent:focus {
+  .accent:focus,
+  .accent:hover {
     color: #4d5ae5;
   }
 
@@ -131,6 +133,7 @@ img {
   .mobile-button {
     border: none;
     background-color: transparent;
+    padding: 0;
   }
 
   /* ================================== */
@@ -160,7 +163,10 @@ img {
   .mobile-container {
     display: flex;
     flex-direction: column;
+    position: relative;
     border-radius: 4px;
+    max-width: 320px;
+    margin: 0 auto;
     padding: 72px 24px 40px 16px;
     height: 100dvh;
   }
@@ -182,7 +188,8 @@ img {
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .modal-menu-close:focus {
+  .modal-menu-close:focus,
+  .modal-menu-close:hover {
     fill: #fff;
     background-color: #404bbf;
   }
@@ -224,7 +231,9 @@ img {
   }
 
   .mobile-nav-link:focus,
+  .mobile-nav-link:hover,
   .mobile-contacts-link:focus,
+  .mobile-contacts-link:hover,
   .mobile-contacts-link.current,
   .mobile-nav-link.current {
     color: #404bbf;
@@ -246,7 +255,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .mobile-social-link:focus {
+  .mobile-social-link:focus,
+  .mobile-social-link:hover {
     background-color: #404bbf;
   }
 
@@ -314,7 +324,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .title-button:focus {
+  .title-button:focus,
+  .title-button:hover {
     color: white;
     background-color: #404bbf;
   }
@@ -372,6 +383,7 @@ img {
   .team-card {
     background-color: white;
     border-radius: 0 0 4px 4px;
+    max-width: 264px;
     box-shadow:
       0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -419,7 +431,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .social-link:focus {
+  .social-link:focus,
+  .social-link:hover {
     background-color: #404bbf;
   }
 
@@ -502,7 +515,8 @@ img {
     font-family: "Raleway", sans-serif;
   }
 
-  .footer-logo:focus {
+  .footer-logo:focus,
+  .footer-logo:hover {
     color: #f4f4fd;
   }
 
@@ -510,7 +524,8 @@ img {
     color: #f4f4fd;
   }
 
-  .footer-accent:focus {
+  .footer-accent:focus,
+  .footer-accent:hover {
     color: #4d5ae5;
   }
 
@@ -618,7 +633,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-button:focus {
+  .footer-button:focus,
+  .footer-button:hover {
     background-color: #31d0aa;
   }
 
@@ -773,7 +789,9 @@ img {
   }
 
   .text-field:focus,
-  .comment-field:focus {
+  .text-field:hover,
+  .comment-field:focus,
+  .comment-field:hover {
     border-color: #4d5ae5;
     outline: none;
   }
@@ -887,7 +905,8 @@ img {
     margin-right: 120px;
   }
 
-  .header-logo:focus {
+  .header-logo:focus,
+  .header-logo:hover {
     color: #2e2f42;
   }
 
@@ -953,7 +972,9 @@ img {
   }
 
   .nav-link:focus,
+  .nav-link:hover,
   .contacts-link:focus,
+  .contacts-link:hover,
   .nav-link.current {
     color: #404bbf;
   }
@@ -1010,7 +1031,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .title-button:focus {
+  .title-button:focus,
+  .title-button:hover {
     color: white;
     background-color: #404bbf;
   }
@@ -1120,7 +1142,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .social-link:focus {
+  .social-link:focus,
+  .social-link:hover {
     background-color: #404bbf;
   }
 
@@ -1215,7 +1238,8 @@ img {
     font-family: "Raleway", sans-serif;
   }
 
-  .footer-logo:focus {
+  .footer-logo:focus,
+  .footer-logo:hover {
     color: #f4f4fd;
   }
 
@@ -1223,7 +1247,8 @@ img {
     color: #f4f4fd;
   }
 
-  .footer-accent:focus {
+  .footer-accent:focus,
+  .footer-accent:hover {
     color: #4d5ae5;
   }
 
@@ -1252,7 +1277,8 @@ img {
     gap: 16px;
   }
 
-  .footer-social-link:focus {
+  .footer-social-link:focus,
+  .footer-social-link:hover {
     background-color: #31d0aa;
   }
 
@@ -1325,7 +1351,8 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-button:focus {
+  .footer-button:focus,
+  .footer-button:hover {
     background-color: #31d0aa;
   }
 
@@ -1480,7 +1507,9 @@ img {
   }
 
   .text-field:focus,
-  .comment-field:focus {
+  .text-field:hover,
+  .comment-field:focus,
+  .comment-field:hover {
     border-color: #4d5ae5;
     outline: none;
   }
@@ -2246,7 +2275,9 @@ img {
   }
 
   .text-field:focus,
-  .comment-field:focus {
+  .text-field:hover,
+  .comment-field:focus,
+  .comment-field:hover {
     border-color: #4d5ae5;
     outline: none;
   }
